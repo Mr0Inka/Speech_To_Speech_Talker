@@ -1,7 +1,6 @@
 ![GazeLogo](https://i.imgur.com/TkWEHji.png)
 
 
-
 Simple RaspberryPi based device to record messages that can be played back with an anonymous voice. This is intended to be used as a very basic communicator for the disabled. While existing products only play back a recorded voice, this approach turns the voice into anonymous Google Wavefront one, making the situation for a mute person using another (known) person's voice less awkward. It also features both, male and female voices.
 
 This project uses the GoogleCloud API to convert speech to text and back. If there is no internet connection, it will play back the raw recording and convert it to an anonymous voice as soon as an internet connection is established.
@@ -15,6 +14,8 @@ This project features a dedicated sandwich shield hosting all the required compo
 - Generic 5V 3A Power supply
 - An old (or new) laptop speaker
 - The Open_AI_Talker_Shield
+
+![GazeLogo](https://i.imgur.com/3IeGwA9.png)
 
 The shield consists of two square shaped PCBs. The upper one is mostly the touch sensitive area with three channels. and hosts the record button. The bottom one connects all the other electronics and hold a female micro usb to power everything up.  
 
