@@ -4,7 +4,7 @@ Simple RaspberryPi based device to record messages that can be played back with 
 
 This project uses the GoogleCloud API to convert speech to text and back. If there is no internet connection, it will play back the raw recording and convert it to an anonymous voice as soon as an internet connection is established.
 
-''Kit version:**
+**Kit version:**
 This project features a dedicated sandwich shield hosting all the required components. In this case, the thing you need are:  
 - Raspberry Pi Zero WH
 - Adafruit "STANDALONE 5-PAD CAPACITIVE TOUCH SENSOR BREAKOUT"
